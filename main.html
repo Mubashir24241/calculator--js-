@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="back">
+
+    <h1>Designed By MUBASHIR AHMAD 😉</h1>
+    <table id="number">
+
+        <tr>
+            <td colspan="4"><input id="output" type="text" /></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7" onclick="display(value)"></td>
+            <td><input type="button" value="8" onclick="display(value)"></td>
+            <td><input type="button" value="9" onclick="display(value)"></td>
+            <td><input type="button" value="+" onclick="display(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="display(value)"></td>
+            <td><input type="button" value="5" onclick="display(value)"></td>
+            <td><input type="button" value="6" onclick="display(value)"></td>
+            <td><input type="button" value="-" onclick="display(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="display(value)"></td>
+            <td><input type="button" value="2" onclick="display(value)"></td>
+            <td><input type="button" value="3" onclick="display(value)"></td>
+            <td><input type="button" value="*" onclick="display(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="(" onclick="display(value)"></td>
+            <td><input type="button" value="0" onclick="display(value)"></td>
+            <td><input type="button" value=")" onclick="display(value)"></td>
+            <td><input type="button" value="/" onclick="display(value)"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: black; text-align: center;"><input type="button" value="C" onclick="clr()"></td>
+            <td colspan="2" style="background-color: black; text-align: center;"><input type="button" name="text" value="=" onclick="solve()"></td>
+        </tr>
+    </table>
+
+    <script src="script.js" type="text/Javascript"></script>
+</body>
+
+</html>
