@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background-color: bisque;
+    background-color: rgba(157, 169, 181, 0.656);
     box-shadow: rgb(90, 142, 142);
 }
 
 table {
-    background-color: rgb(207, 79, 79);
+    background-color: rgb(128, 183, 178);
     width: 95px;
     height: 90px;
     position: sticky;
@@ -19,6 +19,7 @@ input[type=button] {
     color: rgb(243, 243, 243);
     border: none;
     cursor: pointer;
+    border-radius: 20px;
     padding: 18px;
     margin: 18px;
 }
@@ -29,6 +30,8 @@ input[type=text] {
     background-color: white;
     font-size: 44px;
     font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 10pxpx black;
 }
 
 h1 {
