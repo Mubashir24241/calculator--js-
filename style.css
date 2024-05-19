@@ -16,7 +16,7 @@ table {
 input[type=button] {
     font-size: 50px;
     background-color: black;
-    color: white;
+    color: rgb(243, 243, 243);
     border: none;
     cursor: pointer;
     padding: 18px;
